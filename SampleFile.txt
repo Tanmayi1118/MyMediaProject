@@ -1,6 +1,7 @@
 class HelloWorld{
 
 	void printHello(String str){
+
 		System.out.println(str);
 	}
 
@@ -8,6 +9,9 @@ class HelloWorld{
 		HelloWorld hw = new HelloWorld();
 		hw.printHello("Hello..!!");
 		
+		printHello("Hello World!!");
+	
 	}
+
 
 }
