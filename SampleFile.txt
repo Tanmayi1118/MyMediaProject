@@ -1,12 +1,11 @@
 class HelloWorld{
 
-	void printHello(){
-		System.out.println("Hello World!!");
+	void printHello(String str){
+		System.out.println();
 	}
 
 	public static void main(String args[]){
-
-		
+		printHello("Hello World!!");
 	}
 
 }
