@@ -5,10 +5,13 @@ class HelloWorld{
 		System.out.println(str);
 	}
 
+	void resolveBug(){
+	//bug resolve
+	}
 	public static void main(String args[]){
 		HelloWorld hw = new HelloWorld();
 		hw.printHello("Hello..!!");
-		
+		hw.resolveBug();
 		printHello("Hello World!!");
 	
 	}
